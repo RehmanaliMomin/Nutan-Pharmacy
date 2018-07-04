@@ -5,65 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <style>
-        .carousel-inner{
-            width: 100%;
-            height: 100%;
-        }
-        #trusted-list .col-sm-3{
-            margin:auto;
-        }
-        
-    </style>
+    
     <title>Nutan Pharma</title>
 </head>
 
 <body>
     
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
-        <div class="container">
-            <a href="#" class="navbar-brand">
-                <img src="/img/logo.png" alt="" class="logo-img" style="width: 40px">
-                <strong style="margin-left: 12px">Nutan</strong> Pharma
-            </a>
-            
-            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ml-4">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    
-                    <li class="nav-item ml-4">
-                        <a class="nav-link" href="#">About</a>
-                    </li>  
-                    <li class="nav-item ml-4">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>    
-                    <li class="nav-item ml-4">
-                        <div class="dropdown">
-                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-                                Subscribtion
-                            </button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Regular</a>
-                                <a class="dropdown-item" href="#">Premium</a>
-                                <a class="dropdown-item" href="#">Premium+</a>
-                            </div>
-                        </div>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="/img/logo.png" alt="" class="logo-img" style="width: 40px;">
+                    <strong style="margin-left: 12px">Nutan</strong> Pharma
+                </a>
+                
+                <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ml-4">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
                         
-                        <!-- <a class="nav-link" href="#">Services</a> -->
-                    </li>
-                </ul>
-            </div>  
-        </div>
-    </nav>
+                        <li class="nav-item ml-4">
+                            <a class="nav-link" href="#">About</a>
+                        </li>  
+                        <li class="nav-item ml-4">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>    
+                        <li class="nav-item ml-4">
+                            <div class="dropdown">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                    Subscribtion
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Regular</a>
+                                    <a class="dropdown-item" href="#">Premium</a>
+                                    <a class="dropdown-item" href="#">Premium+</a>
+                                </div>
+                            </div>
+                            
+                            <!-- <a class="nav-link" href="#">Services</a> -->
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </nav>
+    </header>
     
     
     <div id="demo" class="carousel slide" data-ride="carousel" style="max-width: 100%; margin: 0 auto;height: 80%;">
@@ -76,7 +70,10 @@
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active" style="align-content: center">
-                <img class="img-fluid" src="/img/nutan-chemist-paldi-ahmedabad-chemists-31rgh4m.jpg"  alt="Los Angeles"  width="100%">
+                <div class="image">
+                    <img class="img-fluid" src="/img/nutan-chemist-paldi-ahmedabad-chemists-31rgh4m.jpg"  alt="Los Angeles"  width="100%" >
+                    <div id="overlay"></div>
+                </div>
                 <div class="carousel-caption">
                     <h3>Our Shop</h3>
                     <p>Located at a very happening place at Ahmedabad - Paldi</p>
@@ -84,6 +81,7 @@
             </div>
             <div class="carousel-item">
                 <img src="/img/drink-girl-glass-576831.jpg" alt="Chicago" width="100%">
+                <div id="overlay"></div>
                 <div class="carousel-caption">
                     <h3>Prescribed Medicines</h3>
                     <p>Get all the necessary details into your mail</p>
@@ -125,55 +123,55 @@
             <h1 style="margin-bottom: 1.5em; margin-top: 0">Our trusted Pharmaceutical Companies</h1>
             
             <div class="row" id="trusted-list">
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/Alkem.png" alt="Alkem" width="60%">
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/gsk.jpg" alt="GSK" width="60%">
                 </div>
                 
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/merck.jpg" alt="merck" width="60%" >
                 </div>
                 
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/pfizer1.jpg" alt="pfizer1" width="60%">
                 </div>
             </div>
             
             <div class="row collapse" id="collapse_brands">
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/Novartis.png" alt="Novartis" width="60%">
                     
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/alembic-pharma-logo.jpg" alt="alembic" width="60%">
                 </div>
                 
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/janssen.png" alt="Novartis" width="60%">
                     
                 </div>
                 
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/gilead.jpg" alt="gilead" width="60%">
                     
                 </div>
                 
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/Walk-In-Interview-For-B-Pharm-M-Pharma-In-Torrent--301123226994768.png" alt="Torrent" width="60%">
                     
                 </div>
                 
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/santen.png" alt="santen" width="60%">
                 </div>
                 
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/biotechnology_and_pharmaceutical_logo_design5.gif" alt="Skyler" width="60%">
                 </div>
                 
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4">
                     <img src="/img/pharma-logos/roche.png" alt="siflon" width="60%">
                 </div>
                 
@@ -186,43 +184,250 @@
     </div>
     
     
-    <div class="container text-center m-0 pt-4 mr-auto ml-auto">
-        <h1 style="margin-bottom: 2em">Our Subscription Plans</h1>
+    
+    <div class="container text-center m-0 mr-auto ml-auto bg-light py-8">
+        <h1 style="margin-bottom: 1em;padding-top: .7rem">Our Subscription Plans</h1>
         
         <div class="row">
             <div class="col-md-4" >
                 <div class="card" style="width: 90%">
-                    <img class="card-img-top" src="./img/rawpixel-577480-unsplash.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="./img/rawpixel-577480-unsplash.jpg" alt="Card image cap" style="opacity: .6;" >
                     <div class="card-body">
                         <h5 class="card-title">Regular</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Join</a>
+                        <p class="card-text">Get free counselling and medicine related queries until the time duration of the medicines end.</p>
+                        <!-- <a href="#" class="btn btn-primary">Join</a> -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+                            JOIN
+                        </button>
+                        
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Regular Subscription</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        Get free counselling and medicine related queries until the time duration of the medicines end.
+                                        This subscription is <strong>free </strong> of cost.
+                                        You just need to fill the subscription form..
+                                    </div>
+                                    
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Register</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
                     </div> 
                 </div>
             </div>
             <div class="col-md-4" >
                 <div class="card" style="width: 90%">
-                    <img class="card-img-top" src="./img/rawpixel-577480-unsplash.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="./img/rawpixel-577480-unsplash.jpg" alt="Card image cap" style="opacity: .7;" > 
                     <div class="card-body">
                         <h5 class="card-title">Premium</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Join</a>
+                        <p class="card-text">Get 24x7 hour support for all medical and health related queries by our special offer.</p>
+                        <!-- <a href="#" class="btn btn-primary">Join</a> -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+                            JOIN
+                        </button>
+                        
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal2">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Premium</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        Get 24x7 hour support for all medical related queries and support.
+                                        <br> <br> Register to avail this facility for just <strong>20$ </strong> per quarter.
+                                    </div>
+                                    
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Register</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div> 
                 </div>
             </div>
             <div class="col-md-4" >
                 <div class="card" style="width: 90%">
-                    <img class="card-img-top" src="./img/rawpixel-577480-unsplash.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="./img/rawpixel-577480-unsplash.jpg" alt="Card image cap" style="opacity: 1;">
                     <div class="card-body">
-                        <h5 class="card-title">Premium +</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Join</a>
+                        <h5 class="card-title">Premium plus</h5>
+                        <p class="card-text">Get 24x7 support as well as get all the medical and health check-up free of cost with this subscription.</p>
+                        <!-- <a href="#" class="btn btn-primary">Join</a> -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+                            JOIN
+                        </button>
+                        
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal3">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Premium plus Subscription</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        Get 24x7 support as well as get all the medical and health check-up free of cost with this subscription.
+                                        <br> <br> Register to avail this facility for just <strong>50$ </strong> per quarter.
+                                        
+                                    </div>
+                                    
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">Register</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div> 
                 </div>
             </div>
             
         </div>
     </div>
+    
+    
+    
+    <section id="contact">
+        <div class="container text-center">
+            
+            <h1>Lets talk business</h1>
+            <div class="line"></div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <form action="/#">
+                        <div class="form-group">
+                            <input type="name" class="form-control" id="name" placeholder="Name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <input type="name" class="form-control" id="cmp-name" placeholder="Company Name" name="cmp-name">
+                        </div>
+                        <div class="form-group" >
+                            <textarea type="name" class="form-control" id="msg" placeholder="Message" name="msg"> 
+                                
+                            </textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    <!-- Footer containing the water background image, the 3 columns containing footer information -->
+    
+    <footer>
+        
+        <div class="footer-top container-fluid">
+            <div class="row">
+                <img src="/img/footer_bg.jpg" alt="footer image" style="width: 100%;padding-bottom:-50px; ">
+            </div>
+        </div>
+        
+        <div class="footer-mid border-0" style="text-align: center">
+            <div class="row clearfix">
+                
+                <div class="col-md-4">
+                    <div class="card  border-0" style="width: 90%">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Stores
+                            </h5>
+                            <p>Find the nearest shop<br>Call us at : +91-9376124404</p>
+                            <br>
+                            <button type="button" class="btn btn-primary">SEARCH</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card border-0" style="width: 90%">
+                        <!-- <div class="card-header">
+                            
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Customer Service
+                            </h5>
+                            <p>Nutan pharmaceutical store customer service <br> Call us at : +91-9376124404</p>
+                            <br>
+                            <button type="button" class="btn btn-primary">CONTACT</button>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0" style="width: 90%">
+                        <!-- <div class="card-header">
+                            
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Stay Connected
+                            </h5>
+                            <p>Get the latest news</p>
+                            <br><br>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <i class="fab fa-facebook-f fa-2x"></i>
+                                </div>
+                                <div class="col-sm-3">
+                                    <i class="fab fa-twitter fa-2x"></i>
+                                </div>
+                                <div class="col-sm-3">
+                                    <i class="fab fa-youtube fa-2x"></i>
+                                </div>
+                                <div class="col-sm-3">
+                                    <i class="fab fa-instagram fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="footer-bottom"></div>
+        
+    </footer>
     
 </body>
 </html>

@@ -1,0 +1,54 @@
+
+
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+#trusted-list .col-sm-3{
+    margin:auto;
+}
+
+#contact{
+    padding: 5rem 0;
+    background: white;
+    text-align: center;
+    align-content: center;
+    /* margin-top: 40px; */
+}
+
+#contact h1{
+    text-transform: uppercase;
+}
+
+.line{
+    background: grey;
+    width: 5rem;
+    height: 2px;
+    align-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#name, #email, #cmp-name, #msg {
+background:#eee;
+}
+
+#msg{
+    height: 8rem;
+}
+
+textarea{
+    overflow: auto;
+    resize: vertical;
+    visibility: visible;
+    text-align: left;
+}
+
+#overlay {
+    height: 100%;
+  width: 100%;
+  background: black;
+  position: absolute;
+  opacity: 0.5;
+}
